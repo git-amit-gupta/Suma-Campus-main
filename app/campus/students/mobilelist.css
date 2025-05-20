@@ -1,0 +1,18 @@
+.mobileCard {
+  background-color: #ffffff !important;
+}
+
+.mobileCard .x-panel-header-default {
+  background-color: #58a3ff !important;
+}
+.x-title-text{
+    text-transform: capitalize !important;
+}
+
+/* .mobileContainer .options-btn .x-btn-default-small {
+  border: 0px !important;
+}
+
+.mobileContainer .options-btn .x-btn-default-small :hover {
+  border: 1px solid var(--panel-color);
+} */

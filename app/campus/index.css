@@ -1,0 +1,64 @@
+.mobile-nav-body {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 10;
+  width: min(15em, 100%);
+  /* border-left: 1px solid var(--other1-color); */
+  transition: right 300ms ease-in-out;
+  animation: blink 1s;
+  background-color: var(--text-color);
+  box-shadow: 13px 20px 24px 24px rgba(0, 0, 0, 0.08);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+}
+
+.darkmode .mobile-nav-body{
+  box-shadow: 13px 20px 24px 24px rgba(255, 255, 255, 0.08);
+  border-left: 1px solid var(--other1-color);
+
+
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sideNavDesktop {
+  background-color: var(--background);
+  border-right: 1px solid;
+  border-right-color: #e5e7eb;
+}
+.sideNavDesktop .x-btn-button-center {
+  justify-content: flex-start;
+}
+.sideNavDesktop .x-btn-default-toolbar-small {
+  border-width: 0px;
+}
+.UIToggle .x-btn-button-center{
+justify-content: center;
+}
+.navbtn :hover {
+  background-color: #f3f4f6;
+  /* color: var(--primary-color); */
+  border-radius: 4px;
+}
+.navbtn {
+  background-color: transparent;
+  color: #374151;
+}
+.navbtn .x-btn-inner-default-toolbar-small {
+  color: var(--navbtn-color) !important;
+}
+.navbtn :hover .x-btn-inner-default-toolbar-small {
+  color: var(--primary-color) !important;
+}
+.activeCls .x-btn-inner-default-toolbar-small{
+  color: #3a435d !important;
+}

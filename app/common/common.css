@@ -1,0 +1,34 @@
+.bg-toastgreen {
+  background-color: #02b208 !important;
+  color: white !important;
+}
+.bg-toastred {
+  background-color: #e23f33 !important;
+  color: white !important;
+}
+
+.UIToggle .x-btn-default-small {
+  background-color: transparent;
+  border-color: black;
+  border-radius: 95px !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.time .x-form-item-label-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.UIToggle .x-btn-default-medium{
+  width: 40px !important;
+  height: 40px !important;
+  /* margin-right: 5px; */
+  /* background-color: #a0befb; */
+  border: #757575;
+}
+
+/* .UIToggle .fa-sun , .UIToggle .fa-moon{
+  color: black;
+} */
+

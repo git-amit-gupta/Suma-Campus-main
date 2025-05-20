@@ -1,0 +1,10 @@
+.mobileCard {
+    background-color: #ffffff !important;
+  }
+  
+  .mobileCard .x-panel-header-default {
+    background-color: #58a3ff !important;
+  }
+  .x-title-text{
+      text-transform: capitalize !important;
+  }

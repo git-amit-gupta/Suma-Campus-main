@@ -1,0 +1,29 @@
+{
+  "name": "reextnext",
+  "version": "2.7.3",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "next build || true"
+  },
+  "dependencies": {
+    "@sencha/reext": "^1.0.355",
+    "axios": "^1.7.9",
+    "firebase": "^11.1.0",
+    "moment-timezone": "^0.5.46",
+    "next": "15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-stepper-js": "^1.0.4",
+    "vercel": "^40.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.4"
+  }
+}
