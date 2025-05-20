@@ -42,4 +42,4 @@ next-env.d.ts
 
 .qodo
 
-package-lock.json
+# package-lock.json
