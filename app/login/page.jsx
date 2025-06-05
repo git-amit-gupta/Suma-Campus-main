@@ -166,6 +166,8 @@ function page() {
                             errorTarget: "side",
                           },
                         },
+                        value: 'admin1',
+                        readOnly:'true',
                       },
                       {
                         xtype: "textfield",
@@ -184,6 +186,8 @@ function page() {
                             errorTarget: "side",
                           },
                         },
+                        value: 'admin1',
+                        readOnly:'true'
                       },
 
                       {
